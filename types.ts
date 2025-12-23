@@ -10,6 +10,7 @@ export interface PackedImage {
   rotated: boolean;
   originalWidth: number;
   originalHeight: number;
+  previewUrl: string; // URL of the processed (trimmed/scaled) image
 }
 
 export interface UploadedFile {
